@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "Burges Queens": "burgers-queens",
+    "default": "burgers-queens"
+  }
+}
