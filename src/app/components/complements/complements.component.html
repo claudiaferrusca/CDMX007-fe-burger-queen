@@ -1,0 +1,8 @@
+<div *ngFor="let complement of complement; let i=index" class="buttons-complements"(click)="searchComponent(i)">
+  <button class="button-chips">
+  <img [src]="complement.img"> 
+  <p>{{complement.nombre}}</p>
+<p>{{complement.precio}}</p> 
+</button>  
+</div>
+    

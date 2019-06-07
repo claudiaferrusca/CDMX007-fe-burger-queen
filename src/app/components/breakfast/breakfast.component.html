@@ -1,0 +1,13 @@
+<div *ngFor="let breakfast of breakfast; let i=index" class="buttons-breakfast" (click)="searchComponent(i)">
+  
+  <button class="button-Sandwich" ><img [src]="breakfast.img"> 
+    <p>{{breakfast.nombre}}</p>
+  <p>{{breakfast.precio}}</p> 
+  </button>
+
+  
+  <!-- <button class="button-juice">Jugo natuarl $15</button>
+  
+  <button class="button-coffe">Café Americano $20</button>
+ <button class="boton-milk" >Café con leche $28"</button> -->
+</div>

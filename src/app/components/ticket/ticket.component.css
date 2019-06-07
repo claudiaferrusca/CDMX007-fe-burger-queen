@@ -1,0 +1,43 @@
+/* .ticket {
+    display: grid;
+    grid-template-columns: 70% auto;
+    background: #eeece6;
+    height: 60vh;
+    margin-top: -39%;
+}
+
+.order-ticket {
+    display: grid;
+    grid-column: 2;
+    grid-template-columns: 55% 18% auto;
+    width: 262px;
+    height: 55px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 2px #707070;
+    margin-left: 3%;
+}
+
+.price {
+    width: 270px;
+    height: 64px;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+
+.name {
+    grid-column: 1;
+}
+
+.price {
+    display: grid;
+    grid-column: 2;
+    margin-top: 25%;
+    margin-left: 48%;
+} */

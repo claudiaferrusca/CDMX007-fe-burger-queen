@@ -1,0 +1,9 @@
+<div *ngFor="let drinks of drinks; let i=index" class="buttons-drinks" (click)="searchComponent(i)">
+
+  <button class="button-soda">
+    <img [src]="drinks.img"> 
+          <p>{{drinks.nombre}}</p>
+        <p>{{drinks.precio}}</p> 
+        </button>
+    
+</div>

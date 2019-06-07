@@ -1,0 +1,27 @@
+
+
+  .button-soda{
+      width: 238.6px;
+    height: 115px;
+    border-radius: 12px;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 2px #707070;
+    background-color: var(--light-grey);
+    background-repeat: no-repeat;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 9;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black);
+  }
+  
+  img{ margin-top: -50%;
+
+  }
+  p{
+    margin-top: -81%;
+  }

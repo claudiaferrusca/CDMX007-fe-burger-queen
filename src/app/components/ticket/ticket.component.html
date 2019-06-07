@@ -1,0 +1,16 @@
+
+
+<!-- <div *ngFor="let product of _facturaService.totalOrder; let i = index">
+ <p>{{product.nombre}}</p>
+ <p>{{product.precio}}</p>
+</div> -->
+<div class=" ticket">
+<h4 class="order-ticket"> </h4>
+<!-- <button>Cancelar orden</button>
+<button>Confirmar orden</button> -->
+<div *ngFor="let product of _facturaService.totalOrder; let i = index">
+    <p class="name">{{product.nombre}}</p>
+    <p class="price">{{product.precio}}<small class="text2">Total</small></p>
+    </div>
+</div>
+
